@@ -1,0 +1,16 @@
+qid,question,pages,type,reference_answer
+q01,In what year did Robert Hooke first use the term "cells"?,70,fact,1665
+q02,How thick is the peptidoglycan cell wall of gram-positive bacteria?,89,fact,about 30–100 nm (many layers of peptidoglycan)
+q03,Which microbiologist suggested in 1987 that "purple bacteria and their relatives" form a separate phylum of Bacteria?,129,fact,Carl Woese
+q04,What are the three domains of life?,122,fact,"Archaea, Bacteria and Eukarya"
+q05,What is a biofilm?,46,definition,"a community of one or more microorganism species forming a slimy coating attached to a surface, held by an extrapolymeric substance (EPS)"
+q06,What is the difference between resident and transient microbiota?,126,definition,"resident microbiota constantly live in or on the body, transient microbiota are only temporarily present (may include pathogens)"
+q07,What are helminths?,19,definition,"multicellular parasitic worms that are mostly visible without a microscope, but studied in microbiology because their eggs and larvae are microscopic"
+q08,How does the Gram stain distinguish gram-positive from gram-negative bacteria?,52;53,multi_page,"gram-positive cells keep the crystal violet and look purple, gram-negative cells are decolorized and are stained pink/red by the safranin counterstain"
+q09,How did Pasteur's swan-neck flask experiment disprove spontaneous generation?,68;69,multi_page,"broth sterilized by boiling stayed free of contamination while air could enter through the curved neck; it became contaminated only after the neck was broken off, so microbes came from the air and not from a life force"
+q10,Why is a drop of oil placed between the specimen and the lens at very high magnification?,37,paraphrase,"oil has a refractive index close to glass, so more light reaches the lens and the resolution improves"
+q11,Which form of a bacterial cell can survive extreme heat and radiation for a very long time?,84;85,paraphrase,the endospore (dormant form; vegetative cells are sensitive to extreme temperatures and radiation)
+q12,Which bacterium is commonly used as a quality-control organism for the Gram stain?,53,fact,Escherichia coli
+q13,How does PCR amplify DNA?,,unanswerable,
+q14,Who developed the first smallpox vaccine?,,unanswerable,
+q15,What is the genome size of Escherichia coli in base pairs?,,unanswerable,
