@@ -1,0 +1,168 @@
+qid,mode,answer,pages,t_retr,t_gen,label,citation_ok
+q01,rag,"[стор. 70] Robert Hooke first used the term ""cells"" in 1665.",70;33;34,0.042,3.620,,
+q01,llm,"Robert Hooke first used the term ""cells"" in 1665 when he described his observations of cork under a microscope. He used this term to describe the small chambers or spaces he saw, which he compared to the rooms in a monastery. This term has since been widely adopted in biology to describe the basic structural units of organisms.",,0,1.984,,
+q02,rag,The peptidoglycan cell wall of gram-positive bacteria is 30–100 nm in thickness. This information is provided on page 89 of the given context.,88;89;88,0.038,6.279,,
+q02,llm,"The peptidoglycan cell wall of gram-positive bacteria is thicker compared to that of gram-negative bacteria. On average, the peptidoglycan layer in gram-positive bacteria can be about 20-25 nanometers (nm) thick, while in gram-negative bacteria, it is typically around 2-4 nm thick. The thickness difference is a key structural feature that contributes to the difference in the ability of these bacteria to retain the crystal violet dye during the Gram staining process.",,0,2.927,,
+q03,rag,"[стор. 129] The microbiologist who suggested in 1987 that ""purple bacteria and their relatives"" form a separate phylum of Bacteria was Carl Woese.",129;23;7,0.048,7.051,,
+q03,llm,"I'm sorry, but I don't have specific information about a microbiologist who suggested in 1987 that ""purple bacteria and their relatives"" form a separate phylum of Bacteria. The classification of bacteria can change over time as new research and evidence come to light. The classification system of bacteria is continually evolving, and there have been significant changes in bacterial classification in recent decades.
+
+Purple bacteria, also known as cyanobacteria, are a diverse group of photosynthetic bacteria that have been studied for many years. However, the specific phylum classification for purple bacteria has not been consistently applied or widely accepted in the scientific community. 
+
+For the most accurate and up-to-date information, you might want to consult the latest taxonomic classifications in microbiology journals or databases like the International Code of Nomenclature of Bacteria (ICNB) or the International Journal of Systematic and Evolutionary Microbiology (IJSEM).",,0,5.685,,
+q04,rag,"The three domains of life are Archaea, Bacteria, and Eukarya. [стор. 122]",122;15;25,0.051,5.323,,
+q04,llm,"The three domains of life, as recognized by modern biological classification, are Eukarya, Bacteria, and Archaea. Here's a brief overview of each:
+
+1. **Eukarya**: This domain includes all organisms with eukaryotic cells, which are cells that contain a nucleus and other membrane-bound organelles. This domain encompasses plants, animals, fungi, and protists. Eukaryotic cells are more complex and have a more sophisticated internal structure compared to prokaryotic cells.
+
+2. **Bacteria**: This domain includes all single-celled prokaryotic organisms. Bacteria are microscopic and can be found in almost every environment on Earth, from the deep ocean to the human body. They play crucial roles in various ecosystems and are essential for many biological processes.
+
+3. **Archaea**: This domain includes single-celled microorganisms that are distinct from bacteria and eukarya. Archaea are often found in extreme environments, such as hot springs, salt lakes, and deep-sea vents. They have unique metabolic pathways and cell structures that distinguish them from bacteria and eukarya.
+
+These three domains represent the major divisions of life on Earth and are based on the differences in their genetic material, cell structure, and metabolic processes.",,0,7.635,,
+q05,rag,"A biofilm is a complex community of microorganisms, typically forming as a slimy coating attached to a surface due to the production of an extrapolymeric substance (EPS). It can be studied using various microscopy techniques, including confocal microscopy and fluorescent dyes, to observe and identify cells within the biofilm matrix. In nature, biofilms are abundant and play crucial roles in ecosystems, while in medical settings, they can coat medical devices and pose challenges in treatment due to their resistance to immune systems and antimicrobial drugs.",46;46;91,0.053,8.134,,
+q05,llm,"A biofilm is a structured community of microorganisms, primarily bacteria, that stick to a surface and excrete extracellular polymeric substances (EPS) to create a slimy layer. This layer can envelop single cells or groups of cells and can adhere to surfaces in aquatic environments, soils, or even to medical devices and human tissues in medical settings.
+
+Biofilms are often found in nature, such as in the ocean, lakes, and rivers, where they can form on the surfaces of aquatic organisms and in sediments. They are also common in human-made environments, such as on the surfaces of medical devices like catheters, dental implants, and in the pipes of water treatment plants.
+
+Biofilms are often more resistant to antibiotics and other antimicrobial agents compared to their free-floating bacterial counterparts, which makes them difficult to treat. They can also play a significant role in the spread of antibiotic resistance genes. In some cases, biofilms can also be beneficial, such as in the production of biofuels or in the breakdown of pollutants.
+
+Understanding biofilms is crucial for developing strategies to prevent infections, improve the durability of medical devices, and even for environmental remediation.",,0,6.969,,
+q06,rag,"Resident microbiota are microorganisms that constantly live in or on our bodies, while transient microbiota are microorganisms that are only temporarily found in the human body, including pathogenic microorganisms. [стор. 126]",126;126;126,0.054,6.496,,
+q06,llm,"Resident and transient microbiota are two distinct types of microorganisms that can be found in various environments, including the human body. Here's a breakdown of the key differences between them:
+
+### Resident Microbiota
+**Definition:** Resident microbiota are microorganisms that are permanently or semi-permanently associated with a host, typically residing in specific niches such as the gut, skin, or respiratory tract.
+
+**Characteristics:**
+- **Long-term association:** These microorganisms have a long-term association with the host, often for the entire lifespan of the host.
+- **Adaptation:** They have adapted to the host environment, often developing symbiotic relationships with the host.
+- **Diversity:** Resident microbiota can be quite diverse, with different species coexisting in a specific niche.
+- **Impact on host:** They can influence host health, including digestion, immune system development, and disease resistance.
+
+### Transient Microbiota
+**Definition:** Transient microbiota are microorganisms that temporarily colonize a host, often for a short period of time, and then leave the host.
+
+**Characteristics:**
+- **Short-term association:** These microorganisms are present for a relatively short period, often for a few days or weeks.
+- **Introduction:** They are typically introduced to the host through various means such as ingestion, inhalation, or contact with contaminated surfaces.
+- **Limited diversity:** Transient microbiota are often less diverse compared to resident microbiota.
+- **Impact on host:** They can introduce new species or strains to the host, potentially affecting the host's microbiome composition.
+
+### Key Differences
+1. **Duration of Association:**
+   - Resident microbiota are long-term residents, while transient microbiota are short-term visitors.
+   
+2. **Adaptation and Symbiosis:**
+   - Resident microbiota are adapted to their host environment and often form symbiotic relationships.
+   - Transient microbiota are not as well-adapted and do not form long-term symbiotic relationships.
+
+3. **Impact on Host Health:**
+   - Resident microbiota can significantly impact host health, including disease resistance and immune system development.
+   - Transient microbiota can introduce new species or strains, potentially affecting the host's microbiome composition but generally having a less significant impact on overall health.
+
+Understanding the differences between resident and transient microbiota is crucial for comprehending the dynamics of the microbiome and its role in health and disease.",,0,14.840,,
+q07,rag,"Helminths are multicellular parasitic worms that are not technically microorganisms due to their size, but they fall within the field of microbiology because diseases caused by helminths involve microscopic eggs and larvae. An example of a helminth is the guinea worm, which causes various symptoms and can be transmitted through contaminated water. [стор. 19]",19;19;23,0.063,5.810,,
+q07,llm,"Helminths are a group of parasitic worms that can infect humans and other animals. They are also known as parasitic worms or worms. Helminths can be divided into two main categories: nematodes (roundworms) and platyhelminthes (flatworms). Here are some key points about helminths:
+
+1. Types of helminths:
+   - Nematodes: Examples include hookworms, whipworms, and pinworms.
+   - Platyhelminthes: Examples include flukes (e.g., liver flukes, schistosomes), tapeworms, and turbellarians (free-living flatworms).
+
+2. Common helminth infections:
+   - Nematode infections: Hookworm, roundworm, pinworm, and whipworm infections.
+   - Platyhelminth infections: Schistosomiasis (caused by flukes), cysticercosis (caused by tapeworms), and trichinosis (caused by roundworms).
+
+3. Effects of helminth infections:
+   - They can cause a range of symptoms, including abdominal pain, diarrhea, nausea, and fatigue.
+   - In severe cases, they can lead to malnutrition, anemia, and even death.
+   - They can also contribute to the transmission of other diseases, such as schistosomiasis and cysticercosis.
+
+4. Prevention and treatment:
+   - Preventive measures include proper sanitation, safe water supply, and improved hygiene.
+   - Treatment involves the use of anthelmintic drugs, which are medications specifically designed to kill or expel parasitic worms from the body.
+
+5. Importance of helminths in research:
+   - Helminths have been used in research to study the immune system, particularly the mechanisms of immune tolerance and autoimmunity.
+   - They have also been used in the development of vaccines and in the study of parasitic diseases.
+
+Understanding helminths is crucial for public health, as they can cause significant health problems in both developed and developing countries.",,0,12.671,,
+q08,rag,"The Gram stain distinguishes between gram-positive and gram-negative bacteria by using a primary stain (crystal violet) and a secondary counterstain (safranin). Gram-positive bacteria retain the primary stain (crystal violet) even after treatment with a decolorizing agent, appearing purple. In contrast, gram-negative bacteria lose the primary stain and are stained red by the secondary counterstain (safranin) after the decolorizing agent is applied. This difference in staining results allows for the differentiation between the two types of bacteria.",52;53;52,0.079,8.468,,
+q08,llm,"The Gram stain is a widely used method for the rapid differentiation of bacteria into two main groups: Gram-positive and Gram-negative. This differentiation is based on the structural differences in the cell wall of bacteria. Here's a detailed explanation of how the Gram stain works and why it distinguishes between these two types of bacteria:
+
+### Gram Stain Procedure
+
+The Gram stain procedure involves several steps:
+
+1. **Crystal Violet Staining**: The sample is first stained with a crystal violet solution. This solution penetrates the cell wall and binds to the peptidoglycan layer, which is the outermost layer of the bacterial cell wall. The crystal violet solution is applied to the sample and left for a few minutes.
+
+2. **Iodine Mordant**: After the crystal violet staining, the sample is treated with an iodine solution. Iodine forms a complex with the crystal violet, making it more difficult for the stain to be washed away. This step is called the mordant step.
+
+3. **Decolorization**: The sample is then treated with an alcohol solution (usually ethanol or acetone). This step causes the iodine-vanishable complex to be washed away, leaving the bacteria with a purple color. The alcohol solution also dehydrates the cell wall, making it more rigid and easier to stain.
+
+4. **Safranin Counterstain**: Finally, the sample is stained with a counterstain, usually safranin. Safranin is a red dye that does not bind to the iodine-vanishable complex. This step helps to distinguish the bacteria by providing a clear background against which the purple color of the Gram-positive bacteria stands out.
+
+### Gram Staining Results
+
+- **Gram-positive bacteria**: These bacteria have a thick peptidoglycan layer in their cell walls. The crystal violet-iodine complex is retained by the thick peptidoglycan layer, resulting in a purple coloration that persists after the decolorization step. This is why Gram-positive bacteria appear purple or dark purple under the microscope.
+  
+- **Gram-negative bacteria**: These bacteria have a thin peptidoglycan layer in their cell walls. The alcohol solution used in the decolorization step causes the iodine-vanishable complex to be washed away, leaving the bacteria with a color that is not retained by the counterstain. As a result, Gram-negative bacteria appear red or pink under the microscope.
+
+### Why Gram Staining is Important
+
+The Gram stain is crucial in microbiology because it allows for the rapid identification of bacteria into two major groups. This differentiation is important for several reasons:
+
+- **Antibiotic Susceptibility**: The Gram stain can help predict the antibiotic susceptibility of bacteria. For example, Gram-positive bacteria are often more susceptible to antibiotics like penicillin, while Gram-negative bacteria are often more resistant to these antibiotics.
+  
+- **Pathogenicity**: Certain Gram-positive bacteria, such as *Streptococcus pyogenes* (the cause of strep throat) and *Staphylococcus aureus* (the cause of staph infections), are more likely to cause serious infections. Conversely, Gram-negative bacteria like *Escherichia coli* (which can cause urinary tract infections) and *Pseudomonas aeruginosa* (which can cause infections in immunocompromised individuals) are often more resistant to antibiotics and can cause more severe infections.
+
+In summary, the Gram stain differentiates between Gram-positive and Gram-negative bacteria by their cell wall structure, allowing for rapid identification and classification of bacteria, which is essential for effective medical treatment and infection control.",,0,22.255,,
+q09,rag,"Pasteur's swan-neck flask experiment disproved the theory of spontaneous generation by demonstrating that bacteria and fungi could not enter the flask through the neck, which was bent in a way that allowed air to enter but prevented the entry of microorganisms. This experiment showed that contamination occurred only when the neck was removed, indicating that microorganisms came from outside the flask, not from the broth itself. [стор. 69]",69;115;67,0.193,8.160,,
+q09,llm,"Pasteur's swan-neck flask experiment was a pivotal demonstration that helped disprove the theory of spontaneous generation, which was the prevailing belief in the 18th and early 19th centuries. The theory of spontaneous generation proposed that complex living organisms could arise from non-living matter, such as rotting meat, without the need for a pre-existing organism.
+
+Pasteur's experiment involved the use of a flask with a long, curved neck (the ""swan-neck"" part of the name). The flask was filled with a nutrient-rich broth, and the neck was bent in such a way that it was impossible for any air bubbles to enter the flask. The flask was then sealed to prevent any external contamination.
+
+The experiment was conducted in two parts:
+
+1. **Control Flask**: This flask was left open, allowing air to enter and potentially introduce microorganisms (bacteria) into the broth. Over time, the broth would become cloudy, indicating the presence of microorganisms, and the broth would spoil.
+
+2. **Experiment Flask**: This flask had its neck bent, preventing any air from entering. Despite the absence of air, the broth did not spoil. This was a clear indication that the microorganisms responsible for the spoilage did not come from the air, but rather from the environment around the flask.
+
+This experiment demonstrated that microorganisms could not spontaneously generate from non-living matter. Instead, they came from the environment, specifically from the air that entered the open flask. The closed flask, with its curved neck, prevented any microorganisms from entering, thus showing that microorganisms were not spontaneously generated but were already present in the environment.
+
+This experiment provided strong evidence against the theory of spontaneous generation and supported the idea that all living organisms come from pre-existing life, a concept that is now known as the theory of biogenesis. Pasteur's work laid the foundation for modern microbiology and contributed significantly to our understanding of the origins of life.",,0,11.890,,
+q10,rag,"A drop of oil is placed between the specimen and the lens at very high magnification to fill the space and reduce the difference in refractive indices between air and glass, thereby increasing the maximum angle at which light can strike the lens and improving the resolution of the image. This is achieved by using immersion oil, which has a refractive index very similar to that of glass, allowing light to be focused more effectively. [стор. 37]",37;36;37,0.043,7.398,,
+q10,llm,"Placing a drop of oil between a specimen and a lens at very high magnification is a technique used in microscopy, particularly in oil immersion microscopy. This technique is employed to increase the resolving power of the microscope, allowing for the visualization of finer details in the specimen. Here’s why this technique is used:
+
+1. **Enhanced Resolution**: Oil immersion lenses are designed to be very close to the specimen, typically with a gap of only a few micrometers. By placing a drop of oil between the lens and the specimen, the gap is filled, reducing the air gap that typically exists between the lens and the specimen. This reduction in air gap minimizes spherical aberration, which is a common issue in optical systems, and thus improves the resolution of the microscope.
+
+2. **Reduced Refraction**: Oil has a higher refractive index compared to air. By using oil, the refractive index of the medium between the lens and the specimen is matched or very close to that of the lens, which helps in reducing the refraction of light. This reduction in refraction leads to better image formation and higher magnification.
+
+3. **Stability**: Oil immersion lenses are designed to be used with oil, and they are often more stable and less prone to damage when used in this manner. The oil helps in maintaining the correct alignment and pressure between the lens and the specimen.
+
+4. **Controlled Environment**: The oil helps in creating a controlled environment around the specimen, which can be important for certain types of specimens that require specific conditions (e.g., temperature, humidity, or chemical stability).
+
+However, it's important to note that oil immersion microscopy requires careful handling and is not suitable for all specimens or all types of microscopes. It is typically used in specialized applications where the benefits of higher magnification and resolution outweigh the potential risks and complexities.",,0,11.120,,
+q11,rag,НЕМАЄ У ДОКУМЕНТІ,,0.083,0.000,,
+q11,llm,"The form of a bacterial cell that can survive extreme heat and radiation for a very long time is the spore. Spores are highly resistant to environmental stresses such as heat, radiation, desiccation, and chemical agents. They are essentially dormant, non-reproductive structures that bacteria can form under stressful conditions. When conditions improve, the spore can germinate into a reproductive cell. This ability to form spores makes bacteria particularly hardy and allows them to survive in harsh environments for extended periods.",,0,2.871,,
+q12,rag,The Gram-negative Escherichia coli is commonly used as a quality-control organism for the Gram stain. [стор. 53],53;127;51,0.067,6.132,,
+q12,llm,"The bacterium commonly used as a quality-control organism for the Gram stain is **Staphylococcus aureus**. This is because it is easy to stain and has a characteristic Gram-positive reaction, making it a reliable standard for assessing the accuracy of Gram staining techniques.",,0,2.077,,
+q13,rag,НЕМАЄ У ДОКУМЕНТІ,,0.037,0.000,,
+q13,llm,"PCR (Polymerase Chain Reaction) is a widely used molecular biology technique for amplifying a specific region of DNA. Here's a step-by-step explanation of how PCR works:
+
+1. **Initial Setup**: The process begins with a double-stranded DNA template. This template contains the sequence of DNA that you want to amplify. Additionally, you need four nucleotides (A, T, C, and G), which are the building blocks of DNA, and a primer. A primer is a short single-stranded DNA molecule that is complementary to the DNA sequence at the start of the region to be amplified.
+
+2. **Denaturation**: The DNA template is heated to a temperature that causes the double-stranded DNA to separate into two single strands. This process is called denaturation. The temperature used for this step is typically around 95°C, which is high enough to break the hydrogen bonds between the base pairs of the DNA strands.
+
+3. **Annealing**: After denaturation, the temperature is lowered to a temperature that is lower than the melting temperature of the primers but high enough to allow the primers to bind to their complementary sequences on the single-stranded DNA template. This process is called annealing. The temperature used for this step is typically around 55-65°C, depending on the length and sequence of the primers.
+
+4. **Extension**: The temperature is then raised to a temperature that is optimal for the DNA polymerase enzyme used in PCR (usually around 72°C). At this temperature, the DNA polymerase enzyme synthesizes a new strand of DNA that is complementary to the template strand. The DNA polymerase enzyme reads the template strand and synthesizes a new strand by adding nucleotides that are complementary to the template strand. This process is called extension.
+
+5. **Repeat**: Steps 2 through 4 are repeated many times (typically 30 cycles). Each cycle involves denaturation, annealing, and extension. As a result, the amount of DNA doubles with each cycle. After 30 cycles, the amount of DNA can be thousands of times greater than the amount of DNA present in the initial sample.
+
+6. **Final Extension**: After the last cycle, the temperature is raised to a temperature that is optimal for the DNA polymerase enzyme to extend the primers. This step is called the final extension. It ensures that the primers are extended to the full length of the DNA template, resulting in a final product that is double-stranded.
+
+PCR is a powerful tool for DNA amplification because it can produce millions of copies of a specific DNA sequence from a small amount of starting material. This technique is widely used in various fields, including genetics, forensics, and medical diagnostics.",,0,16.454,,
+q14,rag,НЕМАЄ У ДОКУМЕНТІ,,0.053,0.000,,
+q14,llm,The first smallpox vaccine was developed by Edward Jenner in 1796.,,0,0.838,,
+q15,rag,НЕМАЄ У ДОКУМЕНТІ,,0.065,0.000,,
+q15,llm,"The genome size of Escherichia coli is approximately 4.6 million base pairs. This value can vary slightly depending on the source, but it is generally accepted to be around 4.6 million base pairs.",,0,1.585,,
