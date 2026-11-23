@@ -1,0 +1,73 @@
+@startuml uml_components
+title Діаграма компонентів RAG-системи (варіант 12)
+skinparam componentStyle rectangle
+left to right direction
+
+package "Індексація" {
+  [src/ingest.py\nload_pages()] as ingest
+  [src/chunking.py\nmake_chunks()] as chunking
+  [src/index.py\nget_embeddings(), load_store()] as index
+}
+
+package "Відповідь на запитання" {
+  [src/rag.py\nask(), rag_chain, plain_chain] as rag
+}
+
+package "Оцінювання" {
+  [src/eval_retrieval.py\nhit_at_k(), reciprocal_rank(), rrf()] as evalret
+  [src/eval_answers.py] as evalans
+  [src/experiment.py\nЕ2: cross-encoder rerank] as exp
+  [src/git_timeline.py] as timeline
+}
+
+[src/config.py\nVARIANT=12, CHUNKS, TOP_K=3,\nTHRESHOLD=0.74, SEED=12] as config
+
+database "data/document.pdf" as pdf
+database "data/pages.json" as pages
+database "data/chunks_A.json\ndata/chunks_B.json" as chunks
+database "index/A.json\nindex/B.json" as idx
+database "eval/questions.csv" as questions
+database "eval/answers.csv" as answers
+database "eval/answers_labeled.csv" as labeled
+database "eval/retrieval_metrics.csv\neval/experiment_e2.csv" as metrics
+
+cloud "BAAI/bge-small-en-v1.5\n(модель ембедингів, 384 виміри)" as embmodel
+cloud "Ollama: qwen2.5:3b\n(temperature=0, seed=12)" as llm
+cloud "cross-encoder/\nms-marco-MiniLM-L-6-v2" as ce
+
+pdf --> ingest
+ingest --> pages
+pages --> chunking
+chunking --> chunks : A: 256/32\nB: 512/64
+chunks --> index
+index --> idx
+index ..> embmodel : encode
+
+questions --> evalret
+idx --> evalret
+evalret --> metrics
+evalret ..> embmodel
+
+idx --> rag : load_store("A")
+rag ..> embmodel : embed_query
+rag ..> llm : invoke()
+rag --> answers
+questions --> rag
+
+answers --> labeled : ручна розмітка
+labeled --> evalans
+
+idx --> exp
+exp ..> ce : predict()
+exp --> metrics
+
+config ..> ingest
+config ..> chunking
+config ..> index
+config ..> rag
+
+note right of rag
+  Пошук: dense, конфігурація A
+  TOP_K = 3, THRESHOLD = 0.74
+end note
+@enduml
